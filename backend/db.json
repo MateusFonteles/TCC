@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Caneta BIC",
+            "price": 2.00
+        },
+        {
+            "id": 2,
+            "name": "Caderno Tilibra",
+            "price": 15.00
+        },
+        {
+            "id": 1,
+            "name": "Lapiseira Pentel",
+            "price": 20.00
+        }
+    ]
+ }
+ 
