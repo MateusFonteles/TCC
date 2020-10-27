@@ -7,3 +7,7 @@
 .home .subtitle { 
     font-size: 1.1rem;
 }
+.home .linkCoder{
+    text-decoration: none;
+    color: thistle;
+}
