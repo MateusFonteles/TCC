@@ -1,0 +1,32 @@
+
+    <mat-card>
+
+        <mat-card-title>Nova Postagem</mat-card-title>
+
+        <form>
+            <mat-form-field>
+                <input matInput placeholder="Título da postagem"
+                    [(ngModel)] ="postagem.titulo" name="titulo" > 
+            </mat-form-field>
+    
+            <mat-form-field>
+                <input matInput placeholder="Texto da postagem"
+                [(ngModel)] ="postagem.texto" name="texto" >
+            </mat-form-field>
+
+            <div>        <input type="file" placeholder="Imagem da postagem"
+                [(ngModel)] ="postagem.imagem" name="imagem" >
+    
+            </div>
+            
+        </form>
+    
+    <button mat-raised-button (click) = "criarPostagem()" color = "primary">
+    Salvar
+</button>
+
+<button mat-raised-button (click) = "cancelar()" color = "accent">
+    Cancelar
+</button>
+
+</mat-card>

@@ -10,14 +10,10 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
-import { ProductCreateComponent } from './components/product/product-create/product-create.component';
-import { ProductReadComponent } from './components/product/product-read/product-read.component';
-import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
-import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
-
-
-//Directives
-import { RedDirective } from './directives/red.directive';
+import { PostagemCreateComponent } from './components/postagem/postagem-create/postagem-create.component';
+import { PostagemDeleteComponent } from './components/postagem/postagem-delete/postagem-delete.component';
+import { PostagemReadComponent } from './components/postagem/postagem-read/postagem-read.component';
+import { PostagemUpdateComponent } from './components/postagem/postagem-update/postagem-update.component';
  
 //@angular
 import { BrowserModule } from '@angular/platform-browser';
@@ -44,6 +40,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { UsuarioCrudComponent } from './views/usuario-crud/usuario-crud.component';
+import { UsuarioCreateComponent } from './components/usuario/usuario-create/usuario-create.component';
+import { UsuarioDeleteComponent } from './components/usuario/usuario-delete/usuario-delete.component';
+import { UsuarioReadComponent } from './components/usuario/usuario-read/usuario-read.component';
+import { UsuarioUpdateComponent } from './components/usuario/usuario-update/usuario-update.component';
  
 @NgModule({
   declarations: [
@@ -53,11 +54,16 @@ import { MatSortModule } from '@angular/material/sort';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    RedDirective,
-    ProductCreateComponent,
-    ProductReadComponent,
-    ProductUpdateComponent,
-    ProductDeleteComponent
+    PostagemCreateComponent,
+    PostagemDeleteComponent,
+    PostagemReadComponent,
+    PostagemUpdateComponent,
+    UsuarioCrudComponent,
+    UsuarioCreateComponent,
+    UsuarioDeleteComponent,
+    UsuarioReadComponent,
+    UsuarioUpdateComponent,
+    
   ],
   imports: [
     BrowserModule,

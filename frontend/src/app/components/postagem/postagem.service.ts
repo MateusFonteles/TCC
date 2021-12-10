@@ -1,17 +1,16 @@
-import { Product } from './product.model';
+import { Postagem } from './postagem.model';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { HttpClient } from '@angular/common/http';
 import { EMPTY, Observable } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 
- 
 @Injectable({
   providedIn: 'root'
 })
-export class ProductService {
+export class PostagemService {
 
-    baseUrl = "http://localhost:3001/products"
+    baseUrl = "http://localhost:3001/postagens"
  
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
   showMessage(msg: string, isError: boolean = false): void{
@@ -23,8 +22,8 @@ export class ProductService {
     })
   }
 
-  create(product: Product): Observable<Product> {
-    return this.http.post<Product>(this.baseUrl, product).pipe(
+  create(postagem: Postagem): Observable<Postagem> {
+    return this.http.post<Postagem>(this.baseUrl, postagem).pipe(
       map((obj) => obj),
       catchError(e => this.errorHandler(e))
     );
@@ -36,35 +35,39 @@ export class ProductService {
     return EMPTY;
   }
 
-  read(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.baseUrl).pipe(
+  read(): Observable<Postagem[]> {
+    return this.http.get<Postagem[]>(this.baseUrl).pipe(
       map((obj) => obj),
       catchError(e => this.errorHandler(e))
       );
   }
 
-readById(id: number): Observable<Product>{
+readById(id: number): Observable<Postagem>{
   const url = `${this.baseUrl}/${id}`
-  return this.http.get<Product>(url).pipe(
+  return this.http.get<Postagem>(url).pipe(
     map((obj) => obj),
     catchError(e => this.errorHandler(e))
     );
 }
 
-update(product: Product): Observable<Product>{
-  const url = `${this.baseUrl}/${product.id}`
-  return this.http.put<Product>(url, product).pipe(
+update(postagem: Postagem): Observable<Postagem>{
+  const url = `${this.baseUrl}/${postagem.id}`
+  return this.http.put<Postagem>(url, postagem).pipe(
     map((obj) => obj),
     catchError(e => this.errorHandler(e))
     );
 }
 
-delete(id: number): Observable<Product>{
+delete(id: number): Observable<Postagem>{
   const url = `${this.baseUrl}/${id}`;
-  return this.http.delete<Product>(url).pipe(
+  return this.http.delete<Postagem>(url).pipe(
     map((obj) => obj),
     catchError(e => this.errorHandler(e))
   );
 }
 
 }
+function postagem<T>(baseUrl: string, postagem: any) {
+  throw new Error('Function not implemented.');
+}
+
