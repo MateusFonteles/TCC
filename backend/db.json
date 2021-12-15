@@ -1,59 +1,98 @@
 {
   "postagens": [
     {
-      "titulo": "as",
-      "imagem": null,
-      "texto": "fg",
-      "id": 6
+      "titulo": "Os desafios da educação inclusiva",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 0
     },
     {
-      "titulo": "999",
-      "imagem": "C:\\fakepath\\CD214272516900_page-0001.jpg",
-      "texto": "999",
-      "id": 7
+      "titulo": "Educando os pais",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 1
     },
     {
-      "titulo": "444",
-      "imagem": "C:\\fakepath\\CD214272516900_page-0001.jpg",
-      "texto": "444",
-      "id": 8
+      "titulo": "Ensino do braile para estudantes com deficiência visual",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 2
     },
     {
       "titulo": "123456",
-      "imagem": "C:\\fakepath\\CD214272516900_page-0001.jpg",
-      "texto": "12345676",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 3
+    },
+    {
+      "titulo": "Os desafios da educação inclusiva",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 4
+    },
+    {
+      "titulo": "Educando os pais",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 5
+    },
+    {
+      "titulo": "Ensino do braile para estudantes com deficiência visual",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 6
+    },
+    {
+      "titulo": "123456",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 7
+    },
+    {
+      "titulo": "Os desafios da educação inclusiva",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 8
+    },
+    {
+      "titulo": "Educando os pais",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "id": 9
+    },
+    {
+      "titulo": "Ensino do braile para estudantes com deficiência visual",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 10
+    },
+    {
+      "titulo": "123456",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 11
+    },
+    {
+      "titulo": "Os desafios da educação inclusiva",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 12
+    },
+    {
+      "titulo": "Educando os pais",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 13
+    },
+    {
+      "titulo": "Ensino do braile para estudantes com deficiência visual",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 14
+    },
+    {
+      "titulo": "123456",
+      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": 15
+    },
+    {
+      "titulo": "teste",
+      "texto": "teste",
+      "id": 16
     }
   ],
   "usuarios": [
-    {
-      "nome": "qwerty",
-      "imagem": "C:\\fakepath\\avaliação sprints.png",
-      "email": "qwerty",
-      "senha": "qwerty",
-      "id": 2,
-      "titulo": "testtttt"
-    },
-    {
-      "nome": "FABIANA MAZIERO",
-      "imagem": "C:\\fakepath\\CD214272516900_page-0004.jpg",
-      "email": "fad",
-      "senha": "fefg",
-      "id": 3
-    },
     {
       "nome": "Mateus",
       "imagem": null,
       "email": "mateus@mateus",
       "senha": "1234",
-      "id": 4
-    },
-    {
-      "nome": "testandoUser",
-      "imagem": null,
-      "email": "user@mail",
-      "senha": "1234",
-      "id": 5
+      "id": 1
     },
     {
       "nome": "seunome",
@@ -63,53 +102,139 @@
       "id": 6
     },
     {
-      "nome": "Teste100",
+      "nome": "mateus testando ",
       "imagem": null,
-      "email": "teste 100@",
-      "senha": "teste",
+      "email": "mateus testando ",
+      "senha": "mateus testando",
       "id": 7
     },
     {
-      "nome": "Teste100",
+      "nome": "mateus testando ",
       "imagem": null,
-      "email": "teste 100@",
-      "senha": "teste",
+      "email": "mateus testando ",
+      "senha": "mateus testando",
       "id": 8
     },
     {
-      "nome": "FABIANA MAZIERO",
+      "nome": "",
       "imagem": null,
-      "email": "a",
-      "senha": "a",
+      "email": "",
+      "senha": "",
       "id": 9
+    }
+  ],
+  "atividades": [
+    {
+      "id": 0,
+      "titulo": "A revolução francesa",
+      "serie": "9",
+      "materia": "historia",
+      "imagem": "",
+      "descricao": "Tarefa sobre a história da Revolução Francesa."
     },
     {
-      "nome": "123123",
-      "imagem": "C:\\fakepath\\CD214272516900_page-0001.jpg",
-      "email": "123123",
-      "senha": "123123",
-      "id": 10
+      "id": 1,
+      "nome": "Trigonometria básica",
+      "serie": "1m",
+      "materia": "geometria",
+      "imagem": "",
+      "descricao": "Tarefa sobre triangulos isóceles."
     },
     {
-      "nome": "FABIANA MAZIERO",
-      "imagem": null,
-      "email": "oiu",
-      "senha": "oiu",
-      "id": 11
+      "id": 2,
+      "nome": "O pensamento de Marx",
+      "serie": "3m",
+      "materia": "filosofia",
+      "imagem": "",
+      "descricao": "Tarefa sobre a filosofia marxista."
     },
     {
-      "nome": "FABIANA MAZIERO",
-      "imagem": null,
-      "email": "mr.mateusfonteles@gmail.com",
-      "senha": "kj",
-      "id": 12
+      "id": 3,
+      "nome": "Ortografia",
+      "serie": "6",
+      "materia": "portugues",
+      "imagem": "",
+      "descricao": "Tarefa sobre acentuação."
     },
     {
-      "nome": "1111",
-      "imagem": "C:\\fakepath\\CD214272516900_page-0005.jpg",
-      "email": "1111",
-      "senha": "1111",
-      "id": 13
+      "id": 4,
+      "nome": "Magnetismo",
+      "serie": "2m",
+      "materia": "fisica",
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 5,
+      "nome": "Fauna da amazônia",
+      "serie": "7",
+      "materia": "ciencias",
+      "imagem": "",
+      "descricao": "Tarefa sobre a fauna da região amazônica."
+    },
+    {
+      "id": 6,
+      "nome": "Poesia parnasiana",
+      "serie": "1m",
+      "materia": "literatura",
+      "imagem": "",
+      "descricao": "Tarefa sobre os poetas parnasianos"
+    },
+    {
+      "id": 7,
+      "nome": "A revolução francesa",
+      "serie": "9",
+      "materia": "historia",
+      "imagem": "",
+      "descricao": "Tarefa sobre a história da Revolução Francesa."
+    },
+    {
+      "id": 8,
+      "nome": "Trigonometria básica",
+      "serie": "1m",
+      "materia": "geometria",
+      "imagem": "",
+      "descricao": "Tarefa sobre triangulos isóceles."
+    },
+    {
+      "id": 9,
+      "nome": "O pensamento de Marx",
+      "serie": "3m",
+      "materia": "filosofia",
+      "imagem": "",
+      "descricao": "Tarefa sobre a filosofia marxista."
+    },
+    {
+      "id": 10,
+      "nome": "Ortografia",
+      "serie": "6",
+      "materia": "portugues",
+      "imagem": "",
+      "descricao": "Tarefa sobre acentuação."
+    },
+    {
+      "id": 11,
+      "nome": "Magnetismo",
+      "serie": "2m",
+      "materia": "fisica",
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 12,
+      "nome": "Fauna da amazônia",
+      "serie": "7",
+      "materia": "ciencias",
+      "imagem": "",
+      "descricao": "Tarefa sobre a fauna da região amazônica."
+    },
+    {
+      "id": 13,
+      "nome": "Poesia parnasiana",
+      "serie": "1m",
+      "materia": "literatura",
+      "imagem": "",
+      "descricao": "Tarefa sobre os poetas parnasianos"
     }
   ]
 }
