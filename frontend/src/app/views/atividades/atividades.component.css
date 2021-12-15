@@ -1,0 +1,5 @@
+.mat-card {
+    padding: 18px !important; /* less padding than per default */
+    margin: 15px;
+    margin-top: 15px;
+}

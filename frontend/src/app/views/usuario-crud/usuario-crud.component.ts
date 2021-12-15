@@ -12,7 +12,7 @@ export class UsuarioCrudComponent implements OnInit {
   constructor(private router: Router, private headerService: HeaderService) {
     headerService.headerData = {
       title: 'Cadastro de Usuários',
-      icon: 'post_add',
+      icon: 'person_add',
       routeUrl: '/usuarios'
     }
   }

@@ -2,12 +2,12 @@
     background-color:#3F51B5;
     width: 200px;
  }
-  
+
  .sidenav a{
     color: #FFF;
- }
-
- .sidenav i{
+   }
+   
+   .sidenav i{
     padding-right: 10px;
  }
  
@@ -15,3 +15,14 @@
     padding: 16px;
     background-color: #ffffff;
 }
+
+.contribua{
+   background-color: #3f51b5;
+   position: relative;
+   margin-top: 20px;
+}
+.qrcode {
+   width: 100px;
+   align-self: center;
+}
+

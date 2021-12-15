@@ -1,0 +1,18 @@
+.home-adm .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-adm .title {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+ 
+.home-adm .subtitle { 
+    font-size: 1.1rem;
+}
+.home-adm .linkCoder{
+    text-decoration: none;
+    color: thistle;
+}

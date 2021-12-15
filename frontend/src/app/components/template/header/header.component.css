@@ -21,3 +21,10 @@
 .header .title-group i {
     padding-right: 5px;
 }
+
+
+
+.header .login{
+    position: fixed;
+    right: 30px;
+}

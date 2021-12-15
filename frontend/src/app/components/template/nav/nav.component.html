@@ -1,6 +1,7 @@
 <mat-sidenav-container class="container">
     <mat-sidenav class="sidenav" mode="side" opened
     fixedInViewport="true" fixedTopGap="64" fixedBottomGap="64">
+
         <mat-nav-list class="nav-list">
                 <a mat-list-item routerLink="/" >
                 <i class="material-icons">
@@ -8,19 +9,56 @@
                 </i>
                 Início
             </a>
-            <a mat-list-item routerLink="/postagens"> 
+            <a mat-list-item routerLink="/atividades"> 
                 <i class="material-icons">
-                    storefront
+                    article
                 </i>
-                    Postagens
+                    Atividades adaptadas
             </a>
-            <a mat-list-item routerLink="/usuarios"> 
+            <a mat-list-item routerLink="/artigos"> 
+                <i class="material-icons">
+                    school
+                </i>
+                    Artigos 
+            </a>
+            <a mat-list-item routerLink="/sobre"> 
+                <i class="material-icons">
+                    emoji_people
+                </i>
+                    Sobre a autora 
+            </a>
+            <a mat-list-item routerLink="/contato"> 
+                <i class="material-icons">
+                    email
+                </i>
+                    Contato
+            </a>
+            <a mat-list-item routerLink="/usuarios/update/1"> 
                 <i class="material-icons">
                     person
                 </i>
-                    Usuários
+                    Sua conta
             </a>
+
+            <a mat-list-item routerLink="/administracao"> 
+                <i class="material-icons">
+                    settings
+                </i>
+                    Painel de Administração
+            </a>
+
         </mat-nav-list>
+
+        <mat-card class="contribua">
+            <mat-card-subtitle>
+                Contribua com nosso trabalho!
+            </mat-card-subtitle>
+                <img class="qrcode" src="/assets/qrcode.png" alt="logo">
+            <mat-card-subtitle>
+                chave pix : spacoeducare@
+                spacoeducare.com
+            </mat-card-subtitle>
+        </mat-card>
     </mat-sidenav>
     <mat-sidenav-content class=”content”>
         <router-outlet></router-outlet>

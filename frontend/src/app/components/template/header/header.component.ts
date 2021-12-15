@@ -1,5 +1,6 @@
 import { HeaderService } from './header.service';
 import { Component, OnInit } from '@angular/core';
+import { MAT_LABEL_GLOBAL_OPTIONS } from '@angular/material/core';
 
 @Component({
   selector: 'app-header',
@@ -23,5 +24,9 @@ export class HeaderComponent implements OnInit {
 
   get routeUrl(): string {
     return this.headerService.headerData.routeUrl
+  }
+
+  popupLogin():void{
+    this.headerService.snackLogin('ok')
   }
 }
