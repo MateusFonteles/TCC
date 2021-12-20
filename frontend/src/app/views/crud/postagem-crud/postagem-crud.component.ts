@@ -1,26 +1,26 @@
-import { HeaderService } from './../../components/template/header/header.service';
+import { HeaderService } from '../../../components/template/header/header.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
 
 @Component({
-  selector: 'app-product-crud',
-  templateUrl: './product-crud.component.html',
-  styleUrls: ['./product-crud.component.css']
+  selector: 'app-postagem-crud',
+  templateUrl: './postagem-crud.component.html',
+  styleUrls: ['./postagem-crud.component.css']
 })
-export class ProductCrudComponent implements OnInit {
+export class PostagemCrudComponent implements OnInit {
 
   constructor(private router: Router, private headerService: HeaderService) {
     headerService.headerData = {
       title: 'Cadastro de Postagens',
       icon: 'post_add',
-      routeUrl: '/products'
+      routeUrl: '/postagens'
     }
   }
 
   ngOnInit(): void {
   }
 
-  navigateToProductCreate(): void {
+  navigateToPostagemCreate(): void {
     this.router.navigate(['/postagens/create'])
   }
 

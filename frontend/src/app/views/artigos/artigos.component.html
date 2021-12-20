@@ -1,2 +1,9 @@
-<p>artigos works!</p>
-uhu
+<h1 *ngIf="true">Este será exibido</h1>
+<h1 *ngIf="false">Este não será exibido</h1>
+
+<h1 *ngIf="numero === 1">Este será</h1>
+
+<input type="text" (input)="numero = $event.target.value"/>
+<h1 *ngIf="numero > 5">{{numero}}</h1>
+
+<h1 *ngFor="let n of arrNumbers">{{ n }}</h1>

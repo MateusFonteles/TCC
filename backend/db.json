@@ -1,11 +1,6 @@
 {
   "postagens": [
     {
-      "titulo": "Os desafios da educação inclusiva",
-      "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "id": 0
-    },
-    {
       "titulo": "Educando os pais",
       "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "id": 1
@@ -84,6 +79,16 @@
       "titulo": "teste",
       "texto": "teste",
       "id": 16
+    },
+    {
+      "nome": "",
+      "descricao": "",
+      "id": 17
+    },
+    {
+      "nome": "testando",
+      "descricao": "testando",
+      "id": 18
     }
   ],
   "usuarios": [
@@ -123,118 +128,274 @@
       "id": 9
     }
   ],
-  "atividades": [
+  "categorias": [
     {
+      "nome": "Outras",
       "id": 0,
-      "titulo": "A revolução francesa",
-      "serie": "9",
-      "materia": "historia",
-      "imagem": "",
-      "descricao": "Tarefa sobre a história da Revolução Francesa."
+      "descricao": ""
     },
     {
+      "nome": "Matemática",
       "id": 1,
-      "nome": "Trigonometria básica",
-      "serie": "1m",
-      "materia": "geometria",
+      "descricao": ""
+    },
+    {
+      "nome": "Geografia",
+      "id": 2,
+      "descricao": ""
+    },
+    {
+      "nome": "História",
+      "id": 3,
+      "descricao": ""
+    },
+    {
+      "nome": "Filosofia",
+      "id": 4,
+      "descricao": ""
+    },
+    {
+      "nome": "Sociologia",
+      "id": 5,
+      "descricao": ""
+    },
+    {
+      "nome": "Física",
+      "id": 6,
+      "descricao": ""
+    },
+    {
+      "nome": "Quimica",
+      "id": 7,
+      "descricao": ""
+    },
+    {
+      "nome": "Biologia",
+      "id": 8,
+      "descricao": ""
+    },
+    {
+      "nome": "Educação Física",
+      "id": 9,
+      "descricao": ""
+    },
+    {
+      "nome": "Geometria",
+      "id": 10,
+      "descricao": ""
+    },
+    {
+      "nome": "Literatura",
+      "id": 11,
+      "descricao": ""
+    },
+    {
+      "nome": "Artes",
+      "id": 12,
+      "descricao": ""
+    },
+    {
+      "nome": "Programacao",
+      "id": 13,
+      "descricao": ""
+    },
+    {
+      "nome": "Projeto de Vida",
+      "id": 14,
+      "descricao": ""
+    },
+    {
+      "nome": "Português",
+      "descricao": "",
+      "id": 15
+    }
+  ],
+  "atividades": [
+    {
+      "id": 1,
+      "titulo": "Trigotitulotria básica",
+      "serie": [
+        "Outras"
+      ],
+      "materia": [
+        "Geometria"
+      ],
       "imagem": "",
       "descricao": "Tarefa sobre triangulos isóceles."
     },
     {
       "id": 2,
-      "nome": "O pensamento de Marx",
-      "serie": "3m",
-      "materia": "filosofia",
+      "titulo": "O pensamento de Marx",
+      "serie": [
+        "Pré-escola"
+      ],
+      "materia": [
+        "Filosofia"
+      ],
       "imagem": "",
-      "descricao": "Tarefa sobre a filosofia marxista."
+      "descricao": "Tarefa sobre a Filosofia marxista."
     },
     {
       "id": 3,
-      "nome": "Ortografia",
-      "serie": "6",
-      "materia": "portugues",
+      "titulo": "Ortografia",
+      "serie": [
+        "2º ano do EF"
+      ],
+      "materia": [
+        "Português"
+      ],
       "imagem": "",
       "descricao": "Tarefa sobre acentuação."
     },
     {
       "id": 4,
-      "nome": "Magnetismo",
-      "serie": "2m",
-      "materia": "fisica",
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "Física"
+      ],
       "imagem": "",
       "descricao": "Tarefa sobre a as propriedades dos imãs."
     },
     {
       "id": 5,
-      "nome": "Fauna da amazônia",
-      "serie": "7",
-      "materia": "ciencias",
+      "titulo": "Fauna da amazônia",
+      "serie": [
+        "4º ano do EF"
+      ],
+      "materia": [
+        "Ciências"
+      ],
       "imagem": "",
       "descricao": "Tarefa sobre a fauna da região amazônica."
     },
     {
       "id": 6,
-      "nome": "Poesia parnasiana",
-      "serie": "1m",
-      "materia": "literatura",
+      "titulo": "Poesia parnasiana",
+      "serie": [
+        "5º ano do EF"
+      ],
+      "materia": [
+        "Literatura"
+      ],
       "imagem": "",
       "descricao": "Tarefa sobre os poetas parnasianos"
     },
     {
       "id": 7,
-      "nome": "A revolução francesa",
-      "serie": "9",
-      "materia": "historia",
+      "titulo": "A revolução francesa",
+      "serie": [
+        "6º ano do EF"
+      ],
+      "materia": [
+        "História"
+      ],
       "imagem": "",
       "descricao": "Tarefa sobre a história da Revolução Francesa."
     },
     {
       "id": 8,
-      "nome": "Trigonometria básica",
-      "serie": "1m",
-      "materia": "geometria",
+      "titulo": "Trigotitulotria básica",
+      "serie": [
+        "7º ano do EF"
+      ],
+      "materia": [
+        "Geometria"
+      ],
       "imagem": "",
       "descricao": "Tarefa sobre triangulos isóceles."
     },
     {
       "id": 9,
-      "nome": "O pensamento de Marx",
-      "serie": "3m",
-      "materia": "filosofia",
+      "titulo": "O pensamento de Marx",
+      "serie": [
+        "8º ano do EF"
+      ],
+      "materia": [
+        "Filosofia"
+      ],
       "imagem": "",
-      "descricao": "Tarefa sobre a filosofia marxista."
+      "descricao": "Tarefa sobre a Filosofia marxista."
     },
     {
       "id": 10,
-      "nome": "Ortografia",
-      "serie": "6",
-      "materia": "portugues",
+      "titulo": "Ortografia",
+      "serie": [
+        "9º ano do EF"
+      ],
+      "materia": [
+        "Português"
+      ],
       "imagem": "",
       "descricao": "Tarefa sobre acentuação."
     },
     {
       "id": 11,
-      "nome": "Magnetismo",
-      "serie": "2m",
-      "materia": "fisica",
-      "imagem": "",
-      "descricao": "Tarefa sobre a as propriedades dos imãs."
+      "titulo": "A guerra do peloponeso",
+      "serie": "3º ano do EM",
+      "materia": "História",
+      "imagem": "C:\\fakepath\\chrome.exe",
+      "descricao": "Sobre a obra do ateniense Tucídides"
+    }
+  ],
+  "series": [
+    {
+      "id": 0,
+      "nome": "Outras"
+    },
+    {
+      "id": 1,
+      "nome": "Pré-escola"
+    },
+    {
+      "id": 2,
+      "nome": "1º ano do EF"
+    },
+    {
+      "id": 3,
+      "nome": "2º ano do EF"
+    },
+    {
+      "id": 4,
+      "nome": "3º ano do EF"
+    },
+    {
+      "id": 5,
+      "nome": "4º ano do EF"
+    },
+    {
+      "id": 6,
+      "nome": "5º ano do EF"
+    },
+    {
+      "id": 7,
+      "nome": "6º ano do EF"
+    },
+    {
+      "id": 8,
+      "nome": "7º ano do EF"
+    },
+    {
+      "id": 9,
+      "nome": "8º ano do EF"
+    },
+    {
+      "id": 10,
+      "nome": "9º ano do EF"
+    },
+    {
+      "id": 11,
+      "nome": "1º ano do EM"
     },
     {
       "id": 12,
-      "nome": "Fauna da amazônia",
-      "serie": "7",
-      "materia": "ciencias",
-      "imagem": "",
-      "descricao": "Tarefa sobre a fauna da região amazônica."
+      "nome": "2º ano do EM"
     },
     {
       "id": 13,
-      "nome": "Poesia parnasiana",
-      "serie": "1m",
-      "materia": "literatura",
-      "imagem": "",
-      "descricao": "Tarefa sobre os poetas parnasianos"
+      "nome": "3º ano do EM"
     }
   ]
 }

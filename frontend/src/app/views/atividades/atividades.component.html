@@ -1,11 +1,30 @@
+<mat-chip-list class="materiasChips"  cdkDropListOrientation="horizontal">
+<mat-chip class="materiaChip"  *ngFor="let categoria of categorias" (click)="selecionarMateria(categoria.nome)" id="materia"> 
+{{categoria.nome}}</mat-chip>
+</mat-chip-list>
+
+
 <mat-grid-list cols="3" rowHeight="2:1">
-<div *ngFor="let postagem of postagens" class="question-grid-container">
-  <mat-grid-tile> 
+  <div *ngFor="let atividade of atividades">
+     <div *ngIf="atividade.materia == materiaSelecionada">
+      <mat-grid-tile> 
   <mat-card class="atividade-card">
-        <mat-card-title> {{ postagem.titulo }}</mat-card-title>
-        <mat-card-content>{{ postagem.imagem }}</mat-card-content>
-        <mat-card-content>{{postagem.texto}}</mat-card-content>
+        <mat-card-title> {{ atividade.titulo }}</mat-card-title>
+        <mat-card-content>{{ atividade.imagem }}</mat-card-content>
+        <mat-card-content>{{ atividade.materia }}</mat-card-content>
+        <mat-card-content>{{ atividade.serie }}</mat-card-content>
 </mat-card>
 </mat-grid-tile> 
 </div>
-  </mat-grid-list>
+
+</div>
+</mat-grid-list>
+  <!--
+  
+  <mat-card>
+    <div *ngFor="let atividade of atividades">
+  <button value="">{{ atividade.materia }}</button>
+  </div>
+  </mat-card>
+  -->
+

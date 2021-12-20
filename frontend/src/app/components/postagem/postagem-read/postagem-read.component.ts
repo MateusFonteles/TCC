@@ -10,7 +10,7 @@ import { Postagem } from '../postagem.model'
 export class PostagemReadComponent implements OnInit {
 
   postagens: Postagem[]
-  displayedColumns = ['id', 'titulo', 'imagem', 'texto', 'action']
+  displayedColumns = ['id', 'titulo', 'texto', 'action']
 
   constructor(private postagemService: PostagemService) { }
 

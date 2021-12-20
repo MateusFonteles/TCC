@@ -1,8 +1,11 @@
-import { Postagem } from './../../components/postagem/postagem.model';
+import { CategoriaService } from './../../components/categoria/categoria.service';
+import { MatChipsModule } from '@angular/material/chips';
 import { Component, OnInit } from '@angular/core';
-import { Usuario } from 'src/app/components/usuario/usuario.model';
-import { UsuarioService } from 'src/app/components/usuario/usuario.service';
-import { PostagemService } from 'src/app/components/postagem/postagem.service';
+import { Atividade } from 'src/app/components/atividade/atividade.model';
+import { AtividadeService } from 'src/app/components/atividade/atividade.service';
+import { Categoria } from 'src/app/components/categoria/categoria.model';
+import {CdkDragDrop, moveItemInArray} from '@angular/cdk/drag-drop';
+
 
 @Component({
   selector: 'app-atividades',
@@ -11,14 +14,33 @@ import { PostagemService } from 'src/app/components/postagem/postagem.service';
 })
 export class AtividadesComponent implements OnInit {
 
-  postagens: Postagem[] 
+  categorias: Categoria[]
+  atividades: Atividade[] 
+  materiaSelecionada = 'historia'
 
-  constructor(private postagemService: PostagemService) { }
-
+  constructor(private atividadeService : AtividadeService, private matChipsModule:MatChipsModule, private categoriaService:CategoriaService) { }
+  
   ngOnInit(): void {
-    this.postagemService.read().subscribe(postagens => {
-      this.postagens = postagens
+    this.atividadeService.read().subscribe(atividades => {
+      this.atividades = atividades
+    }),
+    this.categoriaService.read().subscribe(categorias => {
+      this.categorias = categorias
     })
   }
 
+  
+  
+  selecionarMateria(atividade:any): void {
+    this.atividadeService.showMessage(atividade)
+    this.materiaSelecionada = atividade
+    //  this.botaoMateria = document.getElementById('materia')
+    //  this.materiaSelecionada = this.botaoMateria.value()
+ // this.atividades =  
+  //this.atividades.filter(t=>t.materia ===atividade);
+ 
+  }
+
 }
+  
+
