@@ -1,30 +1,23 @@
-<mat-chip-list class="materiasChips"  cdkDropListOrientation="horizontal">
+<div class="chips">
+  <mat-chip-list class="materiasChips"  cdkDropListOrientation="horizontal">
 <mat-chip class="materiaChip"  *ngFor="let categoria of categorias" (click)="selecionarMateria(categoria.nome)" id="materia"> 
 {{categoria.nome}}</mat-chip>
 </mat-chip-list>
-
-
-<mat-grid-list cols="3" rowHeight="2:1">
+</div>
+<div class="quadro">  
   <div *ngFor="let atividade of atividades">
      <div *ngIf="atividade.materia == materiaSelecionada">
-      <mat-grid-tile> 
+      <a mat-list-item routerLink="/contato"> 
   <mat-card class="atividade-card">
         <mat-card-title> {{ atividade.titulo }}</mat-card-title>
-        <mat-card-content>{{ atividade.imagem }}</mat-card-content>
+        <mat-card-image><img class="imgCard" src="assets\atvExemplo.png" alt="logo">
+        </mat-card-image>
         <mat-card-content>{{ atividade.materia }}</mat-card-content>
         <mat-card-content>{{ atividade.serie }}</mat-card-content>
 </mat-card>
-</mat-grid-tile> 
+</a>
+</div>
+</div>
 </div>
 
-</div>
-</mat-grid-list>
-  <!--
-  
-  <mat-card>
-    <div *ngFor="let atividade of atividades">
-  <button value="">{{ atividade.materia }}</button>
-  </div>
-  </mat-card>
-  -->
 

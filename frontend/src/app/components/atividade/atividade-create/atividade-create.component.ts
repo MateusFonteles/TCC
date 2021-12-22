@@ -29,6 +29,7 @@ export class AtividadeCreateComponent implements OnInit {
   materia: null,
   imagem: '',
   descricao: '',
+  autor:''
  }
  
    constructor(private atividadeService: AtividadeService, 

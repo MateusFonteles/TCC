@@ -165,7 +165,7 @@
       "descricao": ""
     },
     {
-      "nome": "Quimica",
+      "nome": "Química",
       "id": 7,
       "descricao": ""
     },
@@ -195,7 +195,7 @@
       "descricao": ""
     },
     {
-      "nome": "Programacao",
+      "nome": "Programação",
       "id": 13,
       "descricao": ""
     },
@@ -208,6 +208,11 @@
       "nome": "Português",
       "descricao": "",
       "id": 15
+    },
+    {
+      "nome": "Ciência de dados",
+      "descricao": "ciência de dados ",
+      "id": 16
     }
   ],
   "atividades": [
@@ -218,7 +223,7 @@
         "Outras"
       ],
       "materia": [
-        "Geometria"
+        "Outras"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre triangulos isóceles."
@@ -230,7 +235,7 @@
         "Pré-escola"
       ],
       "materia": [
-        "Filosofia"
+        "Matemática"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre a Filosofia marxista."
@@ -242,7 +247,7 @@
         "2º ano do EF"
       ],
       "materia": [
-        "Português"
+        "Sociologia"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre acentuação."
@@ -254,7 +259,103 @@
         "3º ano do EF"
       ],
       "materia": [
-        "Física"
+        "História"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 4,
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "História"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 4,
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "História"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 4,
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "História"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 4,
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "História"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 4,
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "História"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 4,
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "História"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 4,
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "História"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 4,
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "História"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre a as propriedades dos imãs."
@@ -266,7 +367,7 @@
         "4º ano do EF"
       ],
       "materia": [
-        "Ciências"
+        "Filosofia"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre a fauna da região amazônica."
@@ -278,7 +379,7 @@
         "5º ano do EF"
       ],
       "materia": [
-        "Literatura"
+        "Química"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre os poetas parnasianos"
@@ -290,7 +391,7 @@
         "6º ano do EF"
       ],
       "materia": [
-        "História"
+        "Biologia"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre a história da Revolução Francesa."
@@ -302,7 +403,7 @@
         "7º ano do EF"
       ],
       "materia": [
-        "Geometria"
+        "Educação Física"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre triangulos isóceles."
@@ -314,7 +415,7 @@
         "8º ano do EF"
       ],
       "materia": [
-        "Filosofia"
+        "Geometria"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre a Filosofia marxista."
@@ -326,19 +427,132 @@
         "9º ano do EF"
       ],
       "materia": [
-        "Português"
+        "Literatura"
       ],
       "imagem": "",
       "descricao": "Tarefa sobre acentuação."
     },
     {
-      "id": 11,
-      "titulo": "A guerra do peloponeso",
-      "serie": "3º ano do EM",
-      "materia": "História",
-      "imagem": "C:\\fakepath\\chrome.exe",
-      "descricao": "Sobre a obra do ateniense Tucídides"
+      "id": 1,
+      "titulo": "Trigotitulotria básica",
+      "serie": [
+        "9º ano do EF"
+      ],
+      "materia": [
+        "Física"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre triangulos isóceles."
+    },
+    {
+      "id": 2,
+      "titulo": "O pensamento de Marx",
+      "serie": [
+        "Pré-escola"
+      ],
+      "materia": [
+        "Programação"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a Filosofia marxista."
+    },
+    {
+      "id": 3,
+      "titulo": "Ortografia",
+      "serie": [
+        "2º ano do EF"
+      ],
+      "materia": [
+        "Projeto de Vida"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre acentuação."
+    },
+    {
+      "id": 4,
+      "titulo": "Magnetismo",
+      "serie": [
+        "3º ano do EF"
+      ],
+      "materia": [
+        "Português"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a as propriedades dos imãs."
+    },
+    {
+      "id": 5,
+      "titulo": "Fauna da amazônia",
+      "serie": [
+        "4º ano do EF"
+      ],
+      "materia": [
+        "Ciência de dados"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a fauna da região amazônica."
+    },
+    {
+      "id": 6,
+      "titulo": "Poesia parnasiana",
+      "serie": [
+        "5º ano do EF"
+      ],
+      "materia": [
+        "Outras"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre os poetas parnasianos"
+    },
+    {
+      "id": 7,
+      "titulo": "A revolução francesa",
+      "serie": [
+        "6º ano do EF"
+      ],
+      "materia": [
+        "Matemática"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a história da Revolução Francesa."
+    },
+    {
+      "id": 8,
+      "titulo": "Trigotitulotria básica",
+      "serie": [
+        "7º ano do EF"
+      ],
+      "materia": [
+        "Geografia"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre triangulos isóceles."
+    },
+    {
+      "id": 9,
+      "titulo": "O pensamento de Marx",
+      "serie": [
+        "8º ano do EF"
+      ],
+      "materia": [
+        "História"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre a Filosofia marxista."
+    },
+    {
+      "id": 10,
+      "titulo": "Ortografia",
+      "serie": [
+        "9º ano do EF"
+      ],
+      "materia": [
+        "Filosofia"
+      ],
+      "imagem": "",
+      "descricao": "Tarefa sobre acentuação."
     }
+
   ],
   "series": [
     {

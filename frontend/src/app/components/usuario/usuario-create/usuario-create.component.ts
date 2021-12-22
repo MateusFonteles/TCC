@@ -10,9 +10,9 @@ import { Router } from '@angular/router';
 export class UsuarioCreateComponent implements OnInit {
   usuario: Usuario = {
     nome: '',
-    imagem: null,
     email: '',
-    senha: ''
+    senha: '',
+    cpf: ''
   }
  
  

@@ -1,5 +1,38 @@
+mat-chip-list .mat-chip {
+    margin: 15px 5px;
+}
+
 .mat-card {
-    padding: 18px !important; /* less padding than per default */
+    width: 220px;
+    height: 330px;
     margin: 15px;
-    margin-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.imgCard{
+    width:140px;
+    height: 210px;
+
+}
+
+.quadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chips {
+    width: 99%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
 }

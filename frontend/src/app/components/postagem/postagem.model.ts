@@ -1,6 +1,6 @@
 export interface Postagem {
     id?: number
     titulo: string
-    imagem: File
+    autor: string
     texto: string
 }

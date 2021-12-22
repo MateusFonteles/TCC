@@ -13,7 +13,7 @@ export class PostagemCreateComponent implements OnInit {
  postagem: Postagem = {
    titulo: '',
    texto: '',
-   imagem: null
+   autor: ''
  }
 
 

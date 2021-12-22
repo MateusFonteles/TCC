@@ -32,7 +32,6 @@ export class AtividadesComponent implements OnInit {
   
   
   selecionarMateria(atividade:any): void {
-    this.atividadeService.showMessage(atividade)
     this.materiaSelecionada = atividade
     //  this.botaoMateria = document.getElementById('materia')
     //  this.materiaSelecionada = this.botaoMateria.value()

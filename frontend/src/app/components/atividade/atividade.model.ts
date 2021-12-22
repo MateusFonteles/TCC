@@ -7,4 +7,5 @@ export interface Atividade {
     materia: Categoria
     imagem: string
     descricao: string
+    autor: string
 }
