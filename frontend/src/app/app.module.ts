@@ -67,6 +67,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatSelectModule} from '@angular/material/select';
 import { AtividadeComponent } from './views/atividade/atividade.component';
+import { ArtigoComponent } from './views/artigo/artigo.component';
 
 @NgModule({
   declarations: [
@@ -106,6 +107,7 @@ import { AtividadeComponent } from './views/atividade/atividade.component';
     SerieUpdateComponent,
     SerieReadComponent,
     AtividadeComponent,
+    ArtigoComponent,
     
    
     

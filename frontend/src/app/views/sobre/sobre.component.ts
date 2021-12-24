@@ -1,3 +1,4 @@
+import { HeaderService } from './../../components/template/header/header.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SobreComponent implements OnInit {
 
-  constructor() { }
+  constructor(headerService:HeaderService) {
+    headerService.headerData = {
+      title: 'Sobre a autora',
+      icon: 'emoji_people',
+      routeUrl: '/sobre'
+   }
+   }
 
   ngOnInit(): void {
   }

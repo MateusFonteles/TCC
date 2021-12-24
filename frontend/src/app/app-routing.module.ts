@@ -1,3 +1,4 @@
+import { AtividadeComponent } from './views/atividade/atividade.component';
 //Atividade
 import { AtividadeCrudComponent } from './views/crud/atividade-crud/atividade-crud.component';
 import { AtividadesComponent } from './views/atividades/atividades.component';
@@ -40,6 +41,7 @@ import { SerieCrudComponent } from './views/crud/serie-crud/serie-crud.component
 import { SerieCreateComponent } from './components/serie/serie-create/serie-create.component';
 import { SerieUpdateComponent } from './components/serie/serie-update/serie-update.component';
 import { SerieDeleteComponent } from './components/serie/serie-delete/serie-delete.component';
+import { ArtigoComponent } from './views/artigo/artigo.component';
 
 const routes: Routes = [
   {
@@ -129,6 +131,12 @@ const routes: Routes = [
   },{
   path: "sobre",
   component: SobreComponent
+},{
+  path: "atividade/:id",
+  component: AtividadeComponent
+},{
+  path: "artigo/:id",
+  component: ArtigoComponent
 }
 ];
 

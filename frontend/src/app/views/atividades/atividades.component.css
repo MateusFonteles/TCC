@@ -1,4 +1,6 @@
-mat-chip-list .mat-chip {
+
+
+.mat-chip-list .mat-chip {
     margin: 15px 5px;
 }
 
@@ -30,7 +32,7 @@ mat-chip-list .mat-chip {
     align-items: center;
   }
 
-  .a {
+  a {
     display: flex;
     align-items: center;
     text-decoration: none;

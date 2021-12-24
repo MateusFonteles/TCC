@@ -7,7 +7,7 @@
 <div class="quadro">  
   <div *ngFor="let atividade of atividades">
      <div *ngIf="atividade.materia == materiaSelecionada">
-      <a mat-list-item routerLink="/contato"> 
+      <a mat-list-item routerLink="/atividade/{{atividade.id}}"> 
   <mat-card class="atividade-card">
         <mat-card-title> {{ atividade.titulo }}</mat-card-title>
         <mat-card-image><img class="imgCard" src="assets\atvExemplo.png" alt="logo">

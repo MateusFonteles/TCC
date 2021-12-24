@@ -12,7 +12,8 @@ export class PostagemService {
 
     baseUrl = "http://localhost:3001/postagens"
  
-  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
+  constructor(private snackBar: MatSnackBar, 
+    private http: HttpClient) { }
   showMessage(msg: string, isError: boolean = false): void{
     this.snackBar.open(msg, 'x', {
       duration: 3000,

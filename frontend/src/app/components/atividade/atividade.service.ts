@@ -13,7 +13,8 @@ export class AtividadeService {
 
   baseUrl = "http://localhost:3001/atividades"
  
-  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
+  constructor(private snackBar: MatSnackBar, 
+    private http: HttpClient) { }
   
   showMessage(msg: string, isError: boolean = false): void{
     this.snackBar.open(msg, 'x', {
