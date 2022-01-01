@@ -1,0 +1,37 @@
+
+    <mat-card>
+
+        <mat-card-title>Nova Postagem</mat-card-title>
+
+        <form>
+            <mat-form-field>
+                <input matInput placeholder="Título do artigo"
+                    [(ngModel)] ="postagem.titulo" name="titulo" > 
+            </mat-form-field>
+    
+            <mat-form-field>
+                <input matInput placeholder="Descrição do artigo"
+                [(ngModel)] ="postagem.descricao" name="descricao" >
+            </mat-form-field>
+    
+            <mat-form-field>
+                <input matInput placeholder="Texto do artigo"
+                [(ngModel)] ="postagem.texto" name="texto" >
+            </mat-form-field>
+    
+            <mat-form-field>
+                <input matInput placeholder="Autor do artigo"
+                [(ngModel)] ="postagem.autor" name="autor" >
+            </mat-form-field>
+            
+        </form>
+    
+    <button mat-raised-button (click) = "criarPostagem()" color = "primary">
+    Salvar
+</button>
+
+<button mat-raised-button (click) = "cancelar()" color = "accent">
+    Cancelar
+</button>
+
+</mat-card>

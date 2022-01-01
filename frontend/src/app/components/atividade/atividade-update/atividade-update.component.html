@@ -1,0 +1,37 @@
+<mat-card>
+
+    <mat-card-title>Materia atividade</mat-card-title>
+
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Título da atividade"
+                [(ngModel)] ="atividade.titulo" name="titulo"> 
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Série da atividade"
+                [(ngModel)] ="atividade.serie" name="serie"> 
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Série da atividade"
+                [(ngModel)] ="atividade.materia" name="materia"> 
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Descrição da atividade"
+            [(ngModel)] ="atividade.descricao" name="descricao">
+        </mat-form-field>
+    </form>
+
+
+<button mat-raised-button (click) = "updateAtividade()" color = "primary">
+Salvar alterações
+</button>
+
+<button mat-raised-button (click) = "cancelar()" color = "accent">
+Cancelar
+</button>
+
+</mat-card>
+

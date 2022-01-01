@@ -1,0 +1,21 @@
+<mat-card>
+  <mat-card-title>
+    Listagem de artigos
+  </mat-card-title>
+  <mat-card-subtitle>
+    Clique no artigo para ler a versão completa
+  </mat-card-subtitle>
+  <mat-card-content>
+    <div class="quadro">  
+      <div *ngFor="let postagem of postagens">
+          <a mat-list-item routerLink="/artigo/{{postagem.id}}"> 
+            <mat-card class="artigo-card">
+              <mat-card-title> {{ postagem.titulo }}</mat-card-title>
+            <mat-card-content>{{ postagem.descricao }}</mat-card-content>
+            <mat-card-content>{{ postagem.autor }}</mat-card-content>
+            
+    </mat-card>
+    </a>
+      </div></div>
+  </mat-card-content>
+</mat-card>

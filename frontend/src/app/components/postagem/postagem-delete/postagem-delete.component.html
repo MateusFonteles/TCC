@@ -1,0 +1,22 @@
+<mat-card>
+    <mat-card-title>Excluir Postagem</mat-card-title>
+
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Título da postagem"
+                [value] ="postagem.titulo" name="titulo" disabled> 
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Texto da postagem"
+            [value] ="postagem.texto" name="texto" disabled>
+        </mat-form-field>
+</form>
+
+<button mat-raised-button (click) = "deletarPostagem()" color="primary">
+Excluir
+</button>
+<button mat-raised-button (click) = "cancelar()" color="accent">
+Cancelar
+</button>
+</mat-card>

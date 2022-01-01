@@ -1,0 +1,9 @@
+<mat-card class="atividade-card">
+    <mat-card-title> {{ postagem.titulo }}</mat-card-title>
+    <mat-card-subtitle>{{postagem.autor}}</mat-card-subtitle>
+    <mat-card-subtitle>{{postagem.descricao}}</mat-card-subtitle>
+    <mat-card-content>{{ postagem.texto }}</mat-card-content>
+    <button mat-raised-button (click) = "navigateToArtigos()" color="primary">
+        Voltar
+    </button>
+</mat-card>

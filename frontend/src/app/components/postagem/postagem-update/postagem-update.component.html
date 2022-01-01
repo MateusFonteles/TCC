@@ -1,0 +1,26 @@
+<mat-card>
+    <mat-card-title>Alterar Postagem</mat-card-title>
+
+<form>
+        <mat-form-field>
+            <input matInput placeholder="Título da postagem"
+                [(ngModel)] ="postagem.titulo" name="titulo" > 
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Texto da postagem"
+            [(ngModel)] ="postagem.texto" name="texto" >
+        </mat-form-field>
+
+</form>
+ 
+
+<button mat-raised-button (click) = "updateProduct()" color="primary">
+Atualizar
+</button>
+<button mat-raised-button (click) = "cancel()" color="accent">
+Cancelar
+</button>
+</mat-card>
+
+

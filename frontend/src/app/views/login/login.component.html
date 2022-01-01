@@ -1,0 +1,27 @@
+<mat-card>
+
+    <mat-card-title>Tela de login</mat-card-title>
+
+    <form>
+
+
+        <mat-form-field>
+            <input matInput placeholder="Email do usuario">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input matInput placeholder="Senha do usuario">
+        </mat-form-field>
+        
+    </form>
+   
+
+<button mat-raised-button  color = "primary" (click) = "logar()">
+Entrar
+</button>
+
+<button mat-raised-button color = "accent" (click) = "navigateToUsuarioCreate()">
+Se cadastrar
+</button>
+
+</mat-card>
